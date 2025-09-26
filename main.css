@@ -6,14 +6,25 @@
 }
 
 h1{
-    font-family: 'Inter', sans-serif;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h3{
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+nav, .join-us{
+    background-color: #556B2F;
+    color: white;
 }
 
 nav{
+    position: sticky;
+    top: 0;
     display: grid;
     grid-template-columns: 50% 50%;
     align-items: center;
-    padding: 16px;
+    padding: 16px 32px 16px 32px;
 }
 
 nav ul{
@@ -27,7 +38,59 @@ nav ul li{
     margin-left: 16px;
 }
 
-.container{
-    padding: 16px;
-
+nav ul li a{
+    text-decoration: none;
+    color: white;
 }
+
+.container{
+    padding: 10% 48px 10% 48px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+}
+
+section h1{
+    font-size: 48px;
+}
+
+section p, #faq ul {
+    font-size: 18px;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+
+.join-us{
+    font-size: 18px;
+    font-weight: bold;
+    width: 100%;
+    padding: 16px;
+    border: transparent;
+    border-radius: 16px;
+}
+
+.join-us:hover{
+    background-color: #3e4a25;
+    transition: .5s ease-in-out;
+}
+
+img{
+    max-width: 80%;
+    margin-left: auto;
+    border-radius: 16px;
+}
+
+#faq h1{
+    margin-bottom: 16px;
+}
+
+#faq ol li{
+    font-weight: bold;
+    margin-left: 32px;
+}
+
+#faq ol li p{
+    font-weight: normal;
+    margin-top: 8px;
+}
+
