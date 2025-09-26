@@ -13,7 +13,7 @@ h3{
     font-family: 'Red Hat Display', sans-serif;
 }
 
-nav, .join-us{
+nav, .join-us, #contact{
     background-color: #556B2F;
     color: white;
 }
@@ -43,11 +43,15 @@ nav ul li a{
     color: white;
 }
 
+nav ul li a:hover{
+    color: #dad9d9;
+    transition: 1s ease;
+}
+
 .container{
     padding: 10% 48px 10% 48px;
     display: grid;
     grid-template-columns: 50% 50%;
-    align-items: center;
 }
 
 section h1{
@@ -74,9 +78,10 @@ section p, #faq ul {
     transition: .5s ease-in-out;
 }
 
-img{
+img, iframe{
     max-width: 80%;
     margin-left: auto;
+    margin-top: auto;
     border-radius: 16px;
 }
 
@@ -92,5 +97,17 @@ img{
 #faq ol li p{
     font-weight: normal;
     margin-top: 8px;
+}
+
+#contact ul{
+    list-style: none;
+}
+
+#contact ul li p{
+    margin-bottom: 8px;
+}
+
+iframe{
+    width: 100%;
 }
 
