@@ -156,6 +156,10 @@ footer{
     img, iframe{
         max-width: 100%;
     }
+
+    iframe{
+        height: 1000px;
+    }
 }
 
 @media screen and (min-height: 648px) and (max-width: 1024px) {
