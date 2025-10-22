@@ -27,6 +27,25 @@ nav{
     padding: 16px 32px 16px 32px;
 }
 
+nav img{
+    width: 146px;
+    margin-left: 0;
+}
+
+#hamburger-menu{
+    display: none;
+}
+
+#hamburger-menu span{
+    display: block;
+    background-color: white;
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 8px;
+    margin-bottom: 16px;
+}
+
 nav ul{
     display: flex;
     margin-left: auto;
@@ -61,7 +80,7 @@ section h1{
 section p, #faq ul {
     font-size: 18px;
     margin-top: 16px;
-    margin-bottom: 32px;
+    margin-bottom: 16px;
 }
 
 .join-us{
@@ -71,18 +90,33 @@ section p, #faq ul {
     padding: 16px;
     border: transparent;
     border-radius: 16px;
+    margin-top: 32px;
 }
 
 .join-us:hover{
     background-color: #3e4a25;
     transition: .5s ease-in-out;
+    cursor: pointer;
 }
 
 img, iframe{
     max-width: 80%;
     margin-left: auto;
     margin-top: auto;
+    margin-bottom: auto;
     border-radius: 16px;
+}
+
+#ngos ul{
+    list-style: none;
+}
+
+#ngos ul li{
+    margin-bottom: 32px;
+}
+
+#ngos ul li a{
+    text-decoration: none;
 }
 
 #faq h1{
@@ -92,6 +126,7 @@ img, iframe{
 #faq ol li{
     font-weight: bold;
     margin-left: 32px;
+    margin-bottom: 16px;
 }
 
 #faq ol li p{
@@ -125,8 +160,8 @@ footer{
         display: block;
     }
 
-    nav h1{
-        font-size: 56px;
+    nav img{
+        width: 64px;
         margin-bottom: 16px;
     }
 
@@ -153,6 +188,11 @@ footer{
         padding: 32px;
     }
 
+    #ngos ul li{
+        margin-top: 32px;
+        margin-bottom: 48px;
+    }
+
     img, iframe{
         max-width: 100%;
     }
@@ -163,12 +203,55 @@ footer{
 }
 
 @media screen and (min-height: 648px) and (max-width: 1024px) {
+    nav img{
+        width: 348px;
+    }
+
+    #hamburger-menu{
+        display: block;
+    }
+
+    #menu{
+        display: none;
+    }
+
+    nav ul{
+        display: block;
+    }
+
     nav ul li{
         font-size: 24px;
+        margin: 32px 0;
+    }
+
+    .join-us{
+        font-size: 48px;
     }
 
     section p{
+        font-size: 16px;
+    }
+
+    #ngos ul li{
+        margin-top: 32px;
+        margin-bottom: 48px;
+    }
+
+    #faq h1{
+        margin-bottom: 32px;
+    }
+
+    #faq ol li{
+        list-style: none;
+        margin: 32px 0;
+    }
+
+    #faq ol li h1{
         font-size: 24px;
+    }
+
+    #faq ol li p{
+        margin-top: 16px;
     }
 }
 
