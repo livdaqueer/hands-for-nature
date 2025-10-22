@@ -35,12 +35,12 @@ nav{
 }
 
 #primary-menu-mobile img{
-    width: 190px;
+    width: 148px;
     margin-left: 0;
 }
 
 #hamburger-menu{
-    display: block;
+    display: none;
     margin-left: auto;
 }
 
