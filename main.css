@@ -176,21 +176,18 @@ footer{
     }
 
     nav ul li a{
-        font-size: 36px;
+        font-size: 48px;
         margin-right: 24px;
     }
 
-    section{
-        min-height: 1850px;
-    }
 
     .container div{
         margin-bottom: 32px;
     }
 
     .join-us{
-        font-size: 32px;
-        padding: 32px;
+        font-size: 36px;
+        padding: 36px;
     }
 
     #ngos ul li{
@@ -231,7 +228,8 @@ footer{
     }
 
     .join-us{
-        font-size: 32px;
+        font-size: 42px;
+        padding: 42px;
     }
 
     section h1{
@@ -239,12 +237,12 @@ footer{
     }
 
     section h3{
-        font-size: 32px;
+        font-size: 36px;
     }
 
     section p,
     section a{
-        font-size: 28px;
+        font-size: 32px;
     }
 
     #ngos ul li{
